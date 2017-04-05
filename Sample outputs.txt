@@ -1,0 +1,245 @@
+Microsoft Windows [Version 6.3.9600]
+(c) 2013 Microsoft Corporation. All rights reserved.
+
+C:\Users\Charlie>dir
+ Volume in drive C has no label.
+ Volume Serial Number is 54EE-16AC
+
+ Directory of C:\Users\Charlie
+
+04/26/16  04:20 PM    <DIR>          .
+04/26/16  04:20 PM    <DIR>          ..
+04/04/16  08:31 PM                 0 cmdargs
+09/29/15  06:28 PM    <DIR>          Contacts
+09/29/15  06:28 PM    <DIR>          Desktop
+04/25/16  03:42 PM    <DIR>          Documents
+09/29/15  06:30 PM    <DIR>          Downloads
+09/29/15  06:28 PM    <DIR>          Favorites
+04/14/16  08:33 PM    <DIR>          LabTwo
+09/29/15  06:30 PM    <DIR>          Links
+09/29/15  06:28 PM    <DIR>          Music
+04/26/16  10:55 PM            33,792 MYDIR.exe
+09/29/15  06:28 PM    <DIR>          Pictures
+04/17/16  09:56 PM            50,456 qms-bmh1.bmp
+04/17/16  09:56 PM            50,456 qms-bmh2.bmp
+04/17/16  09:56 PM            50,456 qms-bmh3.bmp
+12/01/15  12:17 PM               153 quartus2.ini
+04/17/16  09:56 PM            56,331 quartus2.qreg
+04/17/16  09:56 PM             9,022 quartus_web_rules_file.txt
+04/09/16  05:03 PM             1,655 result.txt
+09/29/15  06:28 PM    <DIR>          Saved Games
+09/29/15  06:28 PM    <DIR>          Searches
+09/29/15  06:28 PM    <DIR>          Videos
+               9 File(s)        252,321 bytes
+              14 Dir(s)  28,091,912,192 bytes free
+
+C:\Users\Charlie>MYDIR --help
+
+This program produces a directory listing of all files matching a specified file
+name pattern.
+
+C:\Users\Charlie>MYDIR result.txt
+result.txt
+
+C:\Users\Charlie>MYDIR *.bmp
+qms-bmh1.bmp
+qms-bmh2.bmp
+qms-bmh3.bmp
+
+C:\Users\Charlie>MYDIR
+AppData
+Application Data
+cmdargs
+Contacts
+Cookies
+Desktop
+Documents
+Downloads
+eUboE0EcinS
+Favorites
+kVWSiuXPDm8
+LabTwo
+Links
+Local Settings
+Music
+My Documents
+MYDIR.exe
+NetHood
+NTUSER.DAT
+ntuser.dat.LOG1
+ntuser.dat.LOG2
+NTUSER.DAT{bbed3e3b-0b41-11e3-8249-d6927d06400b}.TM.blf
+NTUSER.DAT{bbed3e3b-0b41-11e3-8249-d6927d06400b}.TMContainer00000000000000000001
+.regtrans-ms
+NTUSER.DAT{bbed3e3b-0b41-11e3-8249-d6927d06400b}.TMContainer00000000000000000002
+.regtrans-ms
+ntuser.ini
+Pictures
+PrintHood
+qms-bmh1.bmp
+qms-bmh2.bmp
+qms-bmh3.bmp
+quartus2.ini
+quartus2.qreg
+quartus_web_rules_file.txt
+Recent
+result.txt
+Saved Games
+Searches
+SendTo
+Start Menu
+Templates
+Videos
+
+C:\Users\Charlie>MYDIR -l
+2015-9-29 18:28         0       [  H ]  AppData
+2015-9-29 18:28         0       [ SH ]  Application Data
+2016-4-4 20:31          0       [A   ]  cmdargs
+2015-9-29 18:28         0       [   R]  Contacts
+2015-9-29 18:28         0       [ SH ]  Cookies
+2015-9-29 18:28         0       [   R]  Desktop
+2016-4-25 15:42         0       [   R]  Documents
+2015-9-29 18:30         0       [   R]  Downloads
+2015-10-27 16:7         16      [  H ]  eUboE0EcinS
+2015-9-29 18:28         0       [   R]  Favorites
+2016-4-17 21:56         16      [  H ]  kVWSiuXPDm8
+2016-4-14 20:33         0       [    ]  LabTwo
+2015-9-29 18:30         0       [   R]  Links
+2015-9-29 18:28         0       [ SH ]  Local Settings
+2015-9-29 18:28         0       [   R]  Music
+2015-9-29 18:28         0       [ SH ]  My Documents
+2016-4-26 22:55         33792   [A   ]  MYDIR.exe
+2015-9-29 18:28         0       [ SH ]  NetHood
+2016-4-25 15:51         6553600 [ASH ]  NTUSER.DAT
+2015-9-29 18:28         5824512 [ASH ]  ntuser.dat.LOG1
+2015-9-29 18:28         3649536 [ASH ]  ntuser.dat.LOG2
+2015-9-29 18:29         65536   [ASH ]  NTUSER.DAT{bbed3e3b-0b41-11e3-8249-d6927
+d06400b}.TM.blf
+2015-9-29 18:29         524288  [ASH ]  NTUSER.DAT{bbed3e3b-0b41-11e3-8249-d6927
+d06400b}.TMContainer00000000000000000001.regtrans-ms
+2015-9-29 18:29         524288  [ASH ]  NTUSER.DAT{bbed3e3b-0b41-11e3-8249-d6927
+d06400b}.TMContainer00000000000000000002.regtrans-ms
+2015-9-29 18:28         20      [ SH ]  ntuser.ini
+2015-9-29 18:28         0       [   R]  Pictures
+2015-9-29 18:28         0       [ SH ]  PrintHood
+2016-4-17 21:56         50456   [A   ]  qms-bmh1.bmp
+2016-4-17 21:56         50456   [A   ]  qms-bmh2.bmp
+2016-4-17 21:56         50456   [A   ]  qms-bmh3.bmp
+2015-12-1 12:17         153     [A   ]  quartus2.ini
+2016-4-17 21:56         56331   [A   ]  quartus2.qreg
+2016-4-17 21:56         9022    [A   ]  quartus_web_rules_file.txt
+2015-9-29 18:28         0       [ SH ]  Recent
+2016-4-9 17:3           1655    [A   ]  result.txt
+2015-9-29 18:28         0       [   R]  Saved Games
+2015-9-29 18:28         0       [   R]  Searches
+2015-9-29 18:28         0       [ SH ]  SendTo
+2015-9-29 18:28         0       [ SH ]  Start Menu
+2015-9-29 18:28         0       [ SH ]  Templates
+2015-9-29 18:28         0       [   R]  Videos
+
+C:\Users\Charlie>MYDIR C:
+AppData
+Application Data
+cmdargs
+Contacts
+Cookies
+Desktop
+Documents
+Downloads
+eUboE0EcinS
+Favorites
+kVWSiuXPDm8
+LabTwo
+Links
+Local Settings
+Music
+My Documents
+MYDIR.exe
+NetHood
+NTUSER.DAT
+ntuser.dat.LOG1
+ntuser.dat.LOG2
+NTUSER.DAT{bbed3e3b-0b41-11e3-8249-d6927d06400b}.TM.blf
+NTUSER.DAT{bbed3e3b-0b41-11e3-8249-d6927d06400b}.TMContainer00000000000000000001
+.regtrans-ms
+NTUSER.DAT{bbed3e3b-0b41-11e3-8249-d6927d06400b}.TMContainer00000000000000000002
+.regtrans-ms
+ntuser.ini
+Pictures
+PrintHood
+qms-bmh1.bmp
+qms-bmh2.bmp
+qms-bmh3.bmp
+quartus2.ini
+quartus2.qreg
+quartus_web_rules_file.txt
+Recent
+result.txt
+Saved Games
+Searches
+SendTo
+Start Menu
+Templates
+Videos
+
+C:\Users\Charlie>MYDIR c:\
+$Recycle.Bin
+altera
+bootmgr
+BOOTNXT
+Config.Msi
+Documents and Settings
+hiberfil.sys
+pagefile.sys
+PerfLogs
+Program Files
+Program Files (x86)
+ProgramData
+swapfile.sys
+System Volume Information
+Users
+Windows
+
+C:\Users\Charlie>MYDIR Documents\
+desktop.ini
+FileCopyBackup.bak
+FileCopyBackup.exe
+lab1dump.txt
+lab1test.bak
+lab1test.txt
+My Music
+My Pictures
+My Videos
+MYDIR.exe
+pleasework.bak
+pleasework.org
+result.bak
+result.org
+result.txt
+resultcopy
+resultcopy.bak
+Visual Studio 2013
+yeehaw.bak
+yeehaw.org
+
+C:\Users\Charlie>MYDIR Documents
+desktop.ini
+FileCopyBackup.bak
+FileCopyBackup.exe
+lab1dump.txt
+lab1test.bak
+lab1test.txt
+My Music
+My Pictures
+My Videos
+MYDIR.exe
+pleasework.bak
+pleasework.org
+result.bak
+result.org
+result.txt
+resultcopy
+resultcopy.bak
+Visual Studio 2013
+yeehaw.bak
+yeehaw.org

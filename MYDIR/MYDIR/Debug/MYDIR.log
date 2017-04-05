@@ -1,0 +1,15 @@
+﻿Build started 4/26/16 10:55:30 PM.
+     1>Project "\\Mac\Home\Documents\CSC 3350\Lab 3\MYDIR\MYDIR\MYDIR.vcxproj" on node 2 (Rebuild target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt MYDIR.c
+         MYDIR.c
+     1>\\mac\home\documents\csc 3350\lab 3\mydir\mydir\mydir.c(91): warning C4018: '<' : signed/unsigned mismatch
+     1>\\mac\home\documents\csc 3350\lab 3\mydir\mydir\mydir.c(150): warning C4047: '=' : 'char' differs in levels of indirection from 'void *'
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"\\Mac\Home\Documents\CSC 3350\Lab 3\MYDIR\Debug\MYDIR.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"\\Mac\Home\Documents\CSC 3350\Lab 3\MYDIR\Debug\MYDIR.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"\\Mac\Home\Documents\CSC 3350\Lab 3\MYDIR\Debug\MYDIR.lib" /MACHINE:X86 Debug\MYDIR.obj
+         MYDIR.vcxproj -> \\Mac\Home\Documents\CSC 3350\Lab 3\MYDIR\Debug\MYDIR.exe
+     1>Done Building Project "\\Mac\Home\Documents\CSC 3350\Lab 3\MYDIR\MYDIR\MYDIR.vcxproj" (Rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.40
